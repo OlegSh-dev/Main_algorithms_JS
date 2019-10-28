@@ -37,6 +37,3 @@ const quickSort = (arr) => {
 
 	return quickSort(lessArr).concat(arr[pivot], quickSort(biggerArr));
 }
-
-
-console.log(quickSort([3, 2, 0]));
